@@ -333,6 +333,11 @@ ul li{
         line-height: 26px;
         text-align: center;
     }
+    .hotel-description, .price-description, .service-description{
+        font-size: var(--para-font-size);
+        color: var(--para-font-size);
+        line-height: 28px;
+    }
 .main-box-container{
     display: flex;
     margin: 30px 0px;
