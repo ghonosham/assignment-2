@@ -219,12 +219,12 @@ ul li{
     color: var(--heading-color);
     font-weight: var(--font-weight);
     text-align: center;
+    margin: 0px;
 }
 .destination-description{
     font-size: var(--para-font-size);
     color: var(--paragraph-color);
     line-height: 26px;
-    padding: 25px 0px 50px 0px;
     text-align: center;
 }
  .column-one{
@@ -493,6 +493,11 @@ ul li{
         height: 390px;
 
     }
+    .deal-text-container{
+        max-width: 589px;
+        margin: 0px auto;
+        padding-bottom: 30px;
+    }
     .icon-container-one{
         display: flex;
         gap: 10px;
@@ -552,7 +557,7 @@ ul li{
     /* style section 5 */
     .section-five-container{
         max-width: 1170px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     .text-video-container{
         display: flex;
@@ -692,6 +697,8 @@ button{
 }
 .selling-test{
     padding: 20px 0px;
+    max-width: 645px;
+    margin: 0px auto;
 }
 .footer-text-description{
     color: #5A5A5D;
